@@ -27,6 +27,13 @@
 
 a {
   text-decoration: none;
+  color: var(--site-header2);
+}
+a:hover {
+  color: var(--main-orange);
+  text-decoration: solid;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 body .container {
@@ -290,6 +297,7 @@ body .arq {
   background: rgba(255, 255, 255, 0.739);
   width: fit-content;
   border-radius: 15px;
+padding: 8px;
   text-decoration: underline;
 }
 
@@ -364,7 +372,15 @@ body .container-data {
 footer {
   height: 30%;
   width: 100%;
-margin-top: 2.5rem;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .fuentes {
+  display: flex;
+  flex-direction: row;
+  
 }
 footer .info {
   width: 100%;
@@ -372,7 +388,7 @@ footer .info {
   border: 3px solid black;
   background-color: var(--main-redorange);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 footer .info h4 {
   width: 100%;
