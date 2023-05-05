@@ -380,7 +380,8 @@ footer {
 footer .fuentes {
   display: flex;
   flex-direction: row;
-  
+  justify-content: space-around;
+  align-items: center;
 }
 footer .info {
   width: 100%;
