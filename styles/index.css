@@ -27,7 +27,7 @@
 
 a {
   text-decoration: none;
-  color: var(--site-header2);
+  
 }
 a:hover {
   color: var(--main-orange);
