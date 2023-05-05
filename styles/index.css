@@ -377,12 +377,12 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-footer .fuentes {
+/* footer .fuentes {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
+} */
 footer .info {
   width: 100%;
   height: 30%;
