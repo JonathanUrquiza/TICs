@@ -57,7 +57,7 @@ body .arq {
 }
 
 .dia {
-
+color: var(--main-white);
   width: 100px;
   height: fit-content;
   display: flex;
