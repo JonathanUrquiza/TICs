@@ -33,7 +33,7 @@ a:hover {
   color: var(--main-orange);
   text-decoration: solid;
   font-weight: 600;
-  text-decoration: underline;
+  
 }
 
 body .container {
@@ -46,6 +46,18 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+}
+.hero {
+  background-color: rgba(255, 255, 255, 0.409);
+ width: fit-content;
+ height: fit-content;
+ font-weight: 600;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+.accordion-body {
+  background-color: #000000;
+  color: var(--main-white);
 }
 
 
@@ -399,4 +411,7 @@ footer .info h4 {
   align-items: center; 
   padding: 2.5rem;
   color: var(--site-header2);
+}
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
 }
