@@ -16,7 +16,7 @@ console.log(fecha.toUTCString());
  const weekday = fecha.getDay();
 
 //funciones
-function monday() {
+/* function monday() {
     let html ="";
     html = `<article class="card">
     <h2>Lunes</h2>
@@ -51,11 +51,11 @@ function monday() {
     </div>
 </article>`;
 insertar.innerHTML += html; 
-}
+} */
 
 
 
-function weekend() {
+/* function weekend() {
     let html ="";
     html = ` <article class="card">
     <h2>Fin de semana</h2>
@@ -63,9 +63,9 @@ function weekend() {
     </article>`; 
     insertar.innerHTML += html;
     
-}
+} */
 
-if (5 < weekday) {
+/* if (5 < weekday) {
     if (weekday == 1) {
         monday()
     } else if (weekday == 2) {
@@ -80,7 +80,7 @@ if (5 < weekday) {
 } else {
     weekend()
     
-}
+} */
 
 //FECHA
 //crear elementos HTML
