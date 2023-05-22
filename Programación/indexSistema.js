@@ -27,7 +27,7 @@ function monday() {
         <div class="card-datos">
             <h4>Clase virtual:</h4>
             <a href="https://us04web.zoom.us/j/71964430054?pwd=MmVU8CLPRjXTFB1d7eubyFZUOIfEnr.1"
-                target="_blank">Zoom</a>
+                target="_blank" class="logo-name ps-2 pe-2">Zoom</a>
             <p>Prof: Mackievicz Adrea</p>
         </div>
         <div>
@@ -46,7 +46,7 @@ function monday() {
         <div class="card-datos">
             <h4>Clase virtual:</h4>
             <a href="https://us04web.zoom.us/j/4517113715?pwd=TW13VjJlUFpZODJ3bWhtUW9wYU5qZz09"
-                target="_blank">Zoom</a>
+                target="_blank" class="logo-name ps-2 pe-2">Zoom</a>
             <p>Prof: Ferro Croce Cristina</p>
         </div>
     </div>
@@ -64,7 +64,7 @@ function tuesday() {
         <h3>Diagramación Lóigica</h3>
         <div class="card-datos">
             <h4>Clase virtual:</h4>
-            <a href="https://us04web.zoom.us/j/4517113715?pwd=TW13VjJlUFpZODJ3bWhtUW9wYU5qZz09">Zoom</a>
+            <a href="https://us04web.zoom.us/j/4517113715?pwd=TW13VjJlUFpZODJ3bWhtUW9wYU5qZz09" class="logo-name ps-2 pe-2">Zoom</a>
             <p>Prof: Ferro Croce Cristina</p>
         </div>
     </div>
@@ -82,7 +82,7 @@ function wendnesday() {
         <h3>TIC´s</h3>
         <div class="card-datos">
             <h4>Clase virtual:</h4>
-            <a href="https://meet.google.com/uka-cnou-rfz">Meet</a>
+            <a href="https://meet.google.com/uka-cnou-rfz" class="logo-name ps-2 pe-2">Meet</a>
             <p>Prof: Polcan Virginia</p>
         </div>
     </div>
@@ -106,7 +106,7 @@ function Thursday() {
         <h3>Arquitectura de las computadora</h3>
         <div class="card-datos">
             <h4>Clase virtual:</h4>
-            <a href="https://meet.google.com/vqb-pyzg-ctv">Meet</a>
+            <a href="https://meet.google.com/vqb-pyzg-ctv" class="logo-name ps-2 pe-2">Meet</a>
             <p>Prof: Virtos Gustavo</p>
         </div>
     </div>
@@ -128,7 +128,7 @@ function Friday() {
         <h3>Contabilidad básica y de costos</h3>
         <div class="card-datos">
             <h4>Clase virtual:</h4>
-            <a href="https://meet.google.com/nfj-dxyq-kax">Meet</a>
+            <a href="https://meet.google.com/nfj-dxyq-kax" class="logo-name ps-2 pe-2">Meet</a>
             <p>Prof: Fernando Calvo</p>
         </div>
     
