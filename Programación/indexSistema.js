@@ -138,7 +138,7 @@ function weekend() {
     <h2>Fin de semana</h2>
     <p>Hay que hacer la tareas.</p>
     </article>`; 
-    insertar.innerHTML += html;
+    insertar.innerHTML = html;
     
 }
 let weekday = fecha.getDay();
@@ -157,8 +157,7 @@ if (weekday > 0 && weekday < 6) {
         Friday()
     }
 } else {
-    
-    weekend();
+     weekend();
 }
 
 //FECHA
