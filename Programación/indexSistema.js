@@ -13,10 +13,10 @@ console.log(fecha.getFullYear());
 console.log(fecha.getMonth()+1);
 console.log(fecha.getDay());
 console.log(fecha.toUTCString());
- const weekday = fecha.getDay();
+ 
 
 //funciones
-/* function monday() {
+function monday() {
     let html ="";
     html = `<article class="card">
     <h2>Lunes</h2>
@@ -51,11 +51,88 @@ console.log(fecha.toUTCString());
     </div>
 </article>`;
 insertar.innerHTML += html; 
-} */
+}
+function tuesday() {
+    let html ="";
+    html = `<article class="card">
+    <h2>Martes</h2>
+    <p>18:30</p>
+    <div class="card-materia">
+        <h3>Diagramación Lóigica</h3>
+        <div class="card-datos">
+            <h4>Clase virtual:</h4>
+            <a href="https://us04web.zoom.us/j/4517113715?pwd=TW13VjJlUFpZODJ3bWhtUW9wYU5qZz09">Zoom</a>
+            <p>Prof: Ferro Croce Cristina</p>
+        </div>
+    </div>
+</article>`;
+insertar.innerHTML += html; 
+}
+function wendnesday() {
+    let html ="";
+    html = `<article class="card">
+    <h2>Miércoles</h2>
+    <p>18:30</p>
+    <div class="card-materia">
+        <h3>TIC´s</h3>
+        <div class="card-datos">
+            <h4>Clase virtual:</h4>
+            <a href="https://meet.google.com/uka-cnou-rfz">Meet</a>
+            <p>Prof: Polcan Virginia</p>
+        </div>
+    </div>
+    <div>
+        <h4>Taera</h4>
+        <p>Terminar el TP de presentación el 31/05/23</p>
+        <p>Repaso del segundo parcial</p>
+        <h4>Segundo parcial</h4>
+        <p>7/06/22</p>
+    </div>
+    
+</article>`;
+insertar.innerHTML += html; 
+}
+function Thursday() {
+    let html ="";
+    html = `<article class="card">
+    <h2>Jueves</h2>
+    <p>18:30</p>
+    <div class="card-materia">
+        <h3>Arquitectura de las computadora</h3>
+        <div class="card-datos">
+            <h4>Clase virtual:</h4>
+            <a href="https://meet.google.com/vqb-pyzg-ctv">Meet</a>
+            <p>Prof: Virtos Gustavo</p>
+        </div>
+    </div>
+    <div>
+        <h4>Parcial</h4>
+        <p>01/06/23</p>
+        <h4>Entrega del tp 2°</h4>
+        <p>8/06/22</p>
+    </div>
+</article>`;
+insertar.innerHTML += html; 
+}
+function Friday() {
+    let html ="";
+    html = `<article class="card">
+    <h2>Viernes</h2>
+    <p>18:30</p>
+    <div class="card-materia">
+        <h3>Contabilidad básica y de costos</h3>
+        <div class="card-datos">
+            <h4>Clase virtual:</h4>
+            <a href="https://meet.google.com/nfj-dxyq-kax">Meet</a>
+            <p>Prof: Fernando Calvo</p>
+        </div>
+    
+    </div>
+</article>`;
+insertar.innerHTML += html; 
+}
 
-
-
-/* function weekend() {
+function weekend() {
     let html ="";
     html = ` <article class="card">
     <h2>Fin de semana</h2>
@@ -63,24 +140,26 @@ insertar.innerHTML += html;
     </article>`; 
     insertar.innerHTML += html;
     
-} */
-
-/* if (5 < weekday) {
-    if (weekday == 1) {
+}
+let weekday = fecha.getDay();
+console.log(weekday);
+if (weekday > 0 && weekday < 6) {    
+    let week = fecha.getDay();
+    if (week == 1) {
         monday()
-    } else if (weekday == 2) {
+    } else if (week == 2) {
         tuesday()
-    } else if (weekday == 3) {
-        wendnesday()
-    } else if (weekday == 4){
+    } else if (week == 3) {
+      wendnesday();
+    } else if (week == 4){
         Thursday()
-    } else if (weekday == 5) {
+    } else if (week == 5) {
         Friday()
     }
 } else {
-    weekend()
     
-} */
+    weekend();
+}
 
 //FECHA
 //crear elementos HTML
