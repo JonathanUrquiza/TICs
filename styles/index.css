@@ -61,7 +61,8 @@ body {
 }
 
 
-.datos {
+.datos { 
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -224,7 +225,7 @@ color: var(--main-white);
 }
 
 .card {
-  width: 200px;
+  width: 100%;
   border: 3px var(--main-redorange) solid;
   box-shadow: 10px var(--text-neonP);
   margin-bottom: 5px;
@@ -242,10 +243,8 @@ color: var(--main-white);
   margin-left: 3px;
   margin-right: 3px;
   transform-origin: 50% 0%;
-  animation: neon;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation: neon 25s ease-in-out infinite;
+  
 }
 
 @keyframes neon {
@@ -334,8 +333,8 @@ padding: 8px;
 
 .generaciones .generaciones-info {
 
-  color: var(--border-textarea);
   
+  color: var(--border-textarea);
   border: 2px solid black;
   border-radius: 10px;
   padding: 5px;
