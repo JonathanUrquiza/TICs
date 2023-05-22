@@ -8,17 +8,18 @@ const insertar = document.getElementById('insertar');
 
 
 const fecha = new Date()
-console.log(fecha);
+/* console.log(fecha);
 console.log(fecha.getFullYear());
 console.log(fecha.getMonth()+1);
 console.log(fecha.getDay());
-console.log(fecha.toUTCString());
+console.log(fecha.toUTCString()); */
  
 
 //funciones
 function monday() {
     let html ="";
-    html = `<article class="card">
+    html = `
+<article class="card">
     <h2>Lunes</h2>
     <p>18:30</p>
     <div class="card-materia ingles">
@@ -49,12 +50,14 @@ function monday() {
             <p>Prof: Ferro Croce Cristina</p>
         </div>
     </div>
-</article>`;
+</article>
+`;
 insertar.innerHTML += html; 
 }
 function tuesday() {
     let html ="";
-    html = `<article class="card">
+    html = `
+    <article class="card">
     <h2>Martes</h2>
     <p>18:30</p>
     <div class="card-materia">
@@ -65,12 +68,14 @@ function tuesday() {
             <p>Prof: Ferro Croce Cristina</p>
         </div>
     </div>
-</article>`;
+</article>
+`;
 insertar.innerHTML += html; 
 }
 function wendnesday() {
     let html ="";
-    html = `<article class="card">
+    html = `
+<article class="card">
     <h2>Miércoles</h2>
     <p>18:30</p>
     <div class="card-materia">
@@ -87,9 +92,9 @@ function wendnesday() {
         <p>Repaso del segundo parcial</p>
         <h4>Segundo parcial</h4>
         <p>7/06/22</p>
-    </div>
-    
-</article>`;
+    </div> 
+</article>
+`;
 insertar.innerHTML += html; 
 }
 function Thursday() {
@@ -134,27 +139,28 @@ insertar.innerHTML += html;
 
 function weekend() {
     let html ="";
-    html = ` <article class="card">
+    html = `
+    <article class="card">
     <h2>Fin de semana</h2>
-    <p>Hay que hacer la tareas.</p>
+    <p>Hay que hacer las tareas.</p>
     </article>`; 
     insertar.innerHTML = html;
     
 }
 let weekday = fecha.getDay();
-console.log(weekday);
+//console.log(weekday);
 if (weekday > 0 && weekday < 6) {    
     let week = fecha.getDay();
     if (week == 1) {
-        monday()
+        monday();
     } else if (week == 2) {
-        tuesday()
+        tuesday();
     } else if (week == 3) {
       wendnesday();
     } else if (week == 4){
-        Thursday()
+        Thursday();
     } else if (week == 5) {
-        Friday()
+        Friday();
     }
 } else {
      weekend();
