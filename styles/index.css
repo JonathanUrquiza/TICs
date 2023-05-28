@@ -35,7 +35,7 @@ a:hover {
   font-weight: 600;
   
 }
-nav > .logo > .logo-name {
+.logo > .logo-name {
   height: fit-content;
   width: fit-content;
   border: 2px solid var(--main-white);
@@ -60,11 +60,11 @@ body {
   background-position: center center;
   background-attachment: fixed;
 }
-body > .container-fluid {
+.container {
   max-width: 960px;
   height: fit-content;
 }
-.cantainer-fluid > .calendario {
+.calendario {
   background-image: url(../img/AnalisisSistemas.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ body > .container-fluid {
   justify-content: space-around;
 }
 
-body > .container-fluid > .calendario > .card {
+.card {
   width: 100%;
   border: 3px var(--main-redorange) solid;
   box-shadow: 10px var(--text-neonP);
@@ -90,6 +90,8 @@ body > .container-fluid > .calendario > .card {
   flex-direction: column;
   align-items: stretch;
 }
+
+
 
 body > .container-time {
   width: auto;
