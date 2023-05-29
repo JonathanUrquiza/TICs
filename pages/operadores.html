@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="desarrollo web">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img/favicons/desarrollo-web.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="../styles/index.css" rel="stylesheet">
+    <title>Lógica Computacional</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="../index.html">
+                    <h1 class="logo-name ps-2 pe-2">A. sistemas</h1>
+
+                </a>
+                <div id="dia" class="dia"></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Páginas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="lunes.html">Lunes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="martes.html">Martes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="miercoles.html">Miércoles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="jueves.html">Jueves</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="viernes.html">Viernes</a>
+                            </li>
+                        </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container arq">
+        <section class="container col-xxl-8 px-4 py-5 hero" id="informatica">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="../img/algoritmo.jpeg" class="d-block mx-lg-auto img-fluid" alt="pc" width="700"
+                        height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Codiciones compuestas con operadores</h2>
+                    <small>Codicional simple</small>
+                    <p>Eje: <code>si (edad >= 65 entonces) {
+                "puede pasar"    
+            }</code></p>
+                    <h2>Condición compuesta</h2>
+                    <p>Es la unión de 2 o más condiciones simples, se utilizan operadores lógicos: </p>
+                    <p>Ej:</p>
+                    <p><code>si (edad > 17 && edad 65 ) {"es adulto"} </code></p>
+                    <p><code>si (edad > 17 ) y (edad < 65) entonces {"es adulto"} </code></p>
+                </div>
+            </div>
+            <h3>Condición compuesta</h3>
+            <p>Los operadores lógicos AND ( 'y' lógico ) y OR ( 'o' lógico ) se emplean fundamentalmente en las
+                estructuras
+                condicionales para agrupar varias condiciones simples.
+                <br>
+                La utilización de operadores lógicos permiten en muchos casos plantear algoritmos más cortos y
+                comprensibles.
+            </p>
+        </section>
+        <section class="container col-xxl-8 px-4 py-5 hero" id="informatica">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="../img/" class="d-block mx-lg-auto img-fluid" alt="" width="700"
+                        height="500" loading="lazy">
+                </div>
+            <p>Cómo se lee: si la condición 1 es verdadera 'y' la condición 2 es verdadera, 'entocnes' ejecutar la rama
+                del verdadero.
+                <br>
+                Cuando vinculamosdos o más condicionales con el operador AND, las dos condiciones deben ser compuestas
+                de Verdadero y continúe por la rama de verdadero de la estructura condicional.
+
+            </p>
+            </div>
+            </div>
+            
+        </section>
+        <section class="container col-xxl-8 px-4 py-5 hero">
+            <P>
+                en el problema de búsqueda del rey de espadas en un mazo de cartas, puede utilizarse una condición
+                compuesta en una instrucción "Mientras". En este caso estoy manejando 2 condiciones: lla condición 1
+                sería
+                "Quedan casta en el mazo" y la condición 2 sería "Rey de espadas". Se saldrá del procedimiento
+                repetitivo en el
+                momento en que la condicion tome valor falso (o sea cuando yo no quedan cartas en el mazo) o bien cuando
+                la condición 2 sea falsa (cuando se haya encontrado el Rey de espadas).
+                Quedará en nosotros (programadores) ver cuál fue la condicion que dejó de cumplirse. Eso lo puedo
+                averiguar en la saliida del "Mientras" y, de acuerdo a eso, continuamos con la resolución del problema.
+            </P>
+        </section>
+        <section class="container col-xxl-8 px-4 py-5 hero" id="informatica">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="../img/" class="d-block mx-lg-auto img-fluid" alt="" width="700"
+                        height="500" loading="lazy">
+                </div>
+                <h2>Operadores OR</h2>
+                <p>
+                Como se lee: So la condición 1 es verdadera o la condición 2 es verdadera, entonces ejecuta la rama del verdadero.
+                <br>
+                Cuando Vinculamos dos o mas condiciones con el operador OR, basta con que una de las dos condiciones sea verdadera para que el resultado de la condición compuesta 
+                de verdadero y continúe por la rama del verdadero de la estructura condicional.    
+                </p>
+            </div>
+            </div>
+            
+        </section>
+            <p>
+
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="info">
+            <h4>Jonathan Javier Urquiza</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
