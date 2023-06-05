@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="desarrollo web">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img/favicons/desarrollo-web.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="../../styles/index.css" rel="stylesheet">
+    <title>Lógica Computacional</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="../../index.html">
+                    <h1 class="logo-name ps-2 pe-2">A. sistemas</h1>
+
+                </a>
+                <div id="dia" class="dia"></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Páginas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../lunes.html">Ingles y Lógica
+                                    computacional</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../martes.html">Diagramación computacional</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../miercoles.html">TIC´s</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../jueves.html">Arq. De las computadoras</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../viernes.html">Contabilidad báscia y de costos</a>
+                            </li>
+                        </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container arq">
+
+        <section class="container col-xxl-8 px-4 py-5 hero">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <h2>equivalencia lógica</h2>
+                <p>
+                    Para ver si dos proposiciones logicas son equivalentes, son aquellas que sus tablas de verdad
+                    coinciden.
+                    <hr>
+                    Ej: Leyes de morgan:
+                    <br>
+                    "Negar una disyuncion es quivalente a la conjunción de las negaciones".
+                    <br>
+                    "Negar una conjunci es negar las disy de las negaciones".
+                    <br>
+                    <br>
+                    ~ (P ^ Q) === ~P V ~Q
+                    <br>
+                    ~ (P V Q) === ~P ^ ~Q
+                </p>
+
+                <br>
+                <br>
+
+                <h2>Ley Conmutativa</h2>
+                <p>
+                    P V Q === Q V P
+                    <br>
+                    P ^ Q === Q ^ P
+
+                </p>
+                <br>
+                <br>
+
+                <h2>Asociativas</h2>
+                <p>
+                    hay que estar hablando de una misma operación.
+                </p>
+
+                <br>
+                ( P V O ) V R === P V (Q V R)
+                <br>
+                (P ^ Q) ^ R === P ^ (Q ^ R)
+
+                <br>
+                <br>
+                <h2>Distributiva</h2>
+                <p>
+                    P V (Q ^ R) === (P V Q) ^ (P V R)
+                    <br>
+                    P ^ (Q V R) === (P ^ Q) v (P ^ R)
+                </p>
+
+
+                <br>
+                <br>
+                <h2>Leyes de absorción</h2>
+                <p>
+                    P V (P ^ Q) === P
+                    <br>
+                    P ^ (P V Q) === P
+                </p>
+                    
+                    
+                <br>
+                <br>
+                <h2>Algunas leyes más</h2>
+                <p>
+                    P V ~ P = Verdadero "Ley de medio excluido"
+                    <br>
+                    P ^ ~P = Falso "Ley de contradicción"
+                </p>
+                <br>
+                <br>
+                <h2>Ley de idebtidad</h2>
+                <p>
+                    P V (P ^ Q) === (P ^ Q) V (P ^ Q) "LEY DE IDENTIDAD".
+                   <br>
+                   Regla:
+                    <br>
+                    P V (algo Falso) === P 
+                    <br>
+                    P ^(algo verdadero) === P
+                </p>
+                <br>
+                <br>
+                <h2>Ley de dominancia</h2>
+                <p>
+                    P V (algo verdadero) ==== Verdadero
+                    <br>
+                    P ^ (algo falso) === Falso
+                </p>
+                <h2>Ley de idempotencia</h2>
+                <p>
+                    P V P === P
+                    <br>
+                    P ^ P === P
+                </p>
+            </div>
+        </section>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a
+                    href="morga.html"></a>Leyes de Morgan</button>
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a href="">Atras</a></button>
+        </div>
+    </main>
+    <footer>
+        <div class="info">
+            <h4>Jonathan Javier Urquiza</h4>
+        </div>
+    </footer>
+
+    <script src="../../Programación/logica.js"></script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
+</body>
+
+</html>
