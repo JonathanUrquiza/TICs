@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="desarrollo web">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img/favicons/desarrollo-web.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="../../styles/index.css" rel="stylesheet">
+    <title>TIC´s</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="../../index.html">
+                    <h1 class="logo-name ps-2 pe-2">A. de sistemas</h1>
+
+                </a>>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Páginas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="segunda.html">Segunda Parte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tercera.html">Tercera Parte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../aquitectura/arqui.html">Arq. de las computadoras</a>
+                            </li>
+
+                        </ul>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <article class="d-flex flex-column align-items-center justify-content-evenly p-4 mt-3 mb-3 neon">
+                <h1>Jonathan Javier Urquiza</h1>
+                <h2>Análisis de sistemas</h2>
+                <p>Este repositorio fue creado con el fin de acercar a mis compañero el material a estudiar para la
+                    materia y a la profesora los tp necesarios para la materia</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3>1) ¿Cómo es la estructura de internet? y ¿Qué servicios corren en ella?</h3>
+                <p>en un principio, internet era un servicio centralizado, ¿qué quiere decir esto?, que todas las computadoras 
+                    se conectaban al mismo servidor, osea, un solo punto de concección para todas las computadoras (que en esa época no eran tantas),
+                    pero en ese momento la gerra fria se estaba instalando, se hablaba mucho de un ataque nuclear y el miedo existente era que, si un misil 
+                    llegase a impactar con este servidor, todas las computadoras  quedarian desconectadas, es hizo que 
+                    la estructura de internet deja de ser centralizacda y pasase a ser una suerte de nodos interconectados, esto suponia una mejora, ya que si una de los 
+                nodos caia, el resto no lo haria, y la comunicación no se veria afectada.
+            <hr>
+        Los serviciosque corren en internet, son:
+        </p>
+        <ul>
+            <li>la web.</li>
+            <li>Correo electronico.</li>
+            <li>Los archivos.</li>
+            <li>Los streams.</li>
+
+        </ul>
+
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3>2)Explique el método de conmutación de paquetes.</h3>
+                <p>el sistema de conmutación de paquetes es un metodo en el que los datos viajan por internet, (como son enviados y recibidos), esto 
+                    significa que, son enviados con un orden específico, en una secuencia de paquetes, viajan a traves de internet tomando cada paquete un camino distinto 
+                    si lo necesitase y al llegar a destino son reordenado segun el orden de envio.
+                    <hr>
+                    Poseen un encabezado, que tiene la dirección de origen y destino y en el pie la verificación de errore, cuando este viaja, el paquete vaja, envia 
+                    una respuesta y si esta coincide con el origen, quiere decir que el paquete llego bien y si es distinta, reenvia el paquete de datos. 
+                </p>
+            </article>
+        </section>
+                
+        <section>
+            <article>
+                <h3>3) ¿Qué es la Web? y¿ Quién fue su "creador".</h3>
+                <p>La web es uno de los tanto servicios que existen en internet y se basa en hipertextos, lo que hizo "Timber", fue tomar herramientas existentes como html</p>    
+            </article>
+        </section>
+            
+        <section>
+            <article>
+                <h3>4) ¿Qué es la W3C?</h3>
+                <p>Es el organizmo que regula todos los estandares y protocolos que son parte de la web.</p>    
+            </article>
+        </section>
+                
+        <section>
+            <article>
+                <h3>5) ¿Cuáles son las etapas de evolución de la web?</h3>
+                <p>Al comienzo era la web 1.0 donde los usuarios oslo podian leer la info, luego paso a ser la web 2.0, la web interactiva donde los usuarios podian dejar mensajes e interactuar, mas tarde paso a ser la web 3.0, la web 
+                    semantica, donde empiezan a ver comportamiento de respuestas segun las caracteristicas del usuario, es decir que lo que el usuario escribía, se buscaba acercar al usuario los gustos basados en los escrito, web 4.0, 
+                    es la web UIQA, que es omnipresente, y significa que todos los dispositivos esta conectado a internet.
+                    <br>
+                    y la web 5.0 sería la web sensorial, es la que responde a las emociones del usuario, y en base a las emociones se filtrarian los contenidos.
+                </p>
+            </article>
+        </section>
+            
+            
+        <section>
+            <article>
+                <h3>6) Desarrolle los conceptos encadenados de la industria 4.0, tecnologías 4.0 y la 4ta revolución industrial.</h3>
+            <p>En la cuata revolucion, la digitalizacíon de las industrias, lo que implica que la industria 4.0 y esta incorpora la digitalización en las estructuras internas de la industria 
+                esto lleva a que las industrias comiecen a pasar todas sus gestiones y porcesos productivos al mundo digital ( interconectividad, robotica, etc.)
+            </p>        
+            </article>
+        </section>
+                
+        <section>
+            <article>
+                <h3>7) ¿Qué es la dirección IP en internet.</h3>
+                <p>Es la direccion que identifica al dispositivo que hace la peticion de coneccion al serividor para obtener los recursos.</p>                
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3>8) ¿Que es un DNS, un IPS, el DHCP. Modem y Router.</h3>
+                <p>
+                    D.N.S:Es el sistema de nombre de dominio, las direcciones IP se corresponden con los nombres de dominio para facilitar su acceso.
+                    <br>
+                    I.S.P:prooveedor de servicio de internet. 
+                    
+                    <br>
+                    D.H.C.P: Servidor del isp que generado de ip dinamicos cuando hacen la petición.
+                    <br>
+                    Modem: modulador de señal.
+                    <br>
+                    Router: Recive señal de internet y rutea la los dispositivos que se encuentren al alacnace.    
+                </p>        
+                </article>
+        </section>
+        <section>
+            <article>
+                <h3>9) Describa los pasos que realiza una petici´pon de una página web en internet hasta su visualización.</h3>
+                    <p>Los pasos son:</p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>    
+                    </ul>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3>10) ¿Cómo se realiza la comunicación entre dos dispositivos móviles?</h3>
+                
+                </article>
+        </section>
+        <div class="next d-flex flex-row justify-content-end">
+            <a class="btn btn-outline-secondary bg-info" href="segundocierre.html">Siguiente</a>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
+</body>
+
+</html>

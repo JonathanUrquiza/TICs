@@ -80,7 +80,7 @@
                 <table class="">
                     <tr class="d-flex flex-row justify-content-between text-center">
                         <td class="card">P</td>
-                        <td class="card">(no P)</td>
+                        <td class="card">( ~P)</td>
                     </tr>
                         
                     <tr class="d-flex flex-row justify-content-between text-center">
@@ -175,8 +175,8 @@
                     simbolo ⊕- arroja un valor de verdadero cuando las dos porposiciones tengan distinto valor.
                 </p>
                 
-                <div class="w-100">
-                    <table class="w-100">
+                <div>
+                    <table class="w-50">
                         <!-- primera fila -->
                         <tr class="d-flex flex-row justify-content-between text-center">
                             <td class="card">P</td><!-- primera columna -->
@@ -208,6 +208,187 @@
                 </div>
             </div>
         </section>
+         <section class="container col-xxl-8 px-4 py-5 hero">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <h2>Implicación lógica</h2>
+                <p>También conocida como <span>operador condicional</span> ay representado con el simbolo ->, arroja un valo verdadero 
+                en todos los casos <span>excepto</span> en el caso V -> F. Dado que esto ppuede ser un poco difícil de recordar, puede 
+                ser útil notar que esto es lógicamente equivalente a  ~P V Q como semuestra en las siguientes tablas.
+                </p>
+                <div class="w-100">
+                    <table class="w-75">
+                        <!-- primera fila -->
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">P</td><!-- primera columna -->
+                            <td class="card">Q</td><!-- segunda columna -->
+                            <td class="card">(P -> Q)</td><!-- tercera columna -->
+                        </tr>
+                        <!-- segunda fila -->
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                        </tr>
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">V</td>
+                            <td class="card">F</td>
+                            <td class="card">F</td>
+                        </tr>
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">F</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                        </tr>
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">F</td>
+                            <td class="card">F</td>
+                            <td class="card">V</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <table class="w-75">
+                        <!-- primera fila -->
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">P</td><!-- primera columna -->
+                            <td class="card">Q</td><!-- segunda columna -->
+                            <td class="card">(~P)</td><!-- tercera columna -->
+                            <td class="card">(~P) V Q</td><!-- cuarta columna -->
+                        </tr>
+                        <!-- segunda fila -->
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                            <td class="card">F</td>
+                            <td class="card">V</td>
+                        </tr>
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">V</td>
+                            <td class="card">F</td>
+                            <td class="card">F</td>
+                            <td class="card">F</td>
+                        </tr>
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">F</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                        </tr>
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">F</td>
+                            <td class="card">F</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                        </tr>
+                    </table>
+                </div>    
+                
+            </div>
+         </section>
+         <section class="container col-xxl-8 px-4 py-5 hero">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <h2>Implicación lógica</h2>
+                <p>Este operador represntado comunmente con el símbolo <->, es la conjunción (P -> Q) ^ (Q -> P).
+                Este operador es tambíen conocido como equivalencia lógica debido a que sólo presenta un valor verdader si ambas
+             proposiciones son igaules.</p>
+             <div class="w-100">
+                <table class="w-75">
+                    <!-- primera fila -->
+                    <tr class="d-flex flex-row justify-content-between text-center">
+                        <td class="card">P</td><!-- primera columna -->
+                        <td class="card">Q</td><!-- segunda columna -->
+                        <td class="card">(P <-> Q)</td><!-- tercera columna -->
+                    </tr>
+                    <!-- segunda fila -->
+                    <tr class="d-flex flex-row justify-content-between text-center">
+                        <td class="card">V</td>
+                        <td class="card">V</td>
+                        <td class="card">V</td>
+                    </tr>
+                    <tr class="d-flex flex-row justify-content-between text-center">
+                        <td class="card">V</td>
+                        <td class="card">F</td>
+                        <td class="card">F</td>
+                    </tr>
+                    <tr class="d-flex flex-row justify-content-between text-center">
+                        <td class="card">F</td>
+                        <td class="card">V</td>
+                        <td class="card">F</td>
+                    </tr>
+                    <tr class="d-flex flex-row justify-content-between text-center">
+                        <td class="card">F</td>
+                        <td class="card">F</td>
+                        <td class="card">V</td>
+                    </tr>
+                </table>
+             </div>
+             <div>
+                <div class="w-100">
+                    <table class="w-100">
+                        <!-- primera fila -->
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">P</td><!-- primera columna -->
+                            <td class="card">Q</td><!-- segunda columna -->
+                            <td class="card">P -> Q</td><!-- tercera columna -->
+                            <td class="card">Q -> P</td><!-- cuarta columna -->
+                            <td class="card">(P -> Q) ^ (Q -> P)</td><!-- quinta columna -->
+                        </tr>
+                        <!-- segunda fila -->
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                        </tr>
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">V</td>
+                            <td class="card">F</td>
+                            <td class="card">F</td>
+                            <td class="card">V</td>
+                            <td class="card">F</td>
+                        </tr>
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">F</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                            <td class="card">F</td>
+                            <td class="card">F</td>
+
+                        </tr>
+                        <tr class="d-flex flex-row justify-content-between text-center">
+                            <td class="card">F</td>
+                            <td class="card">F</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                            <td class="card">V</td>
+                        </tr>
+                    </table>
+             </div> 
+            </div>
+           
+         </section>
+         <section class="accordion accordion-flush d-flex flex-column justify-content-center align-items-center w-100 pb-5" id="accordionFlushExample">
+            <div class="accordion-item mt-5 w-75">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        ¿Cómo hacer una tabla de verdad?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>Ejemplo: Construir una tabla deverdad para la sentencia (p->q) ^ r</p>
+                        <ul>
+                            <p>Pasos:</p>
+                            <li>Determine el número de filas de la tabla de verdad. Para esot solo hay que elevar al numero de proposiciones presentes en la sentencia. En este caso se deber crear 2<sup>3</sup>=8</li>
+                            <li>Crear una columna para cada proposición</li>
+                        </ul> 
+                        <p>Ej: construir una tabla de verdad para la sentencia (p->q)^r (Construción)</p>   
+                    </div>
+                </div>
+            </div>
+         </section>
     </main>
     <footer>
         <div class="info">
