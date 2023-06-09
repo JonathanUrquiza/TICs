@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="desarrollo web">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img/favicons/desarrollo-web.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="../../styles/index.css" rel="stylesheet">
+    <title>TIC´s</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="../../index.html">
+                    <h1 class="logo-name ps-2 pe-2">A. de sistemas</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Páginas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <article class="d-flex flex-column align-items-center justify-content-evenly p-4 mt-3 mb-3 neon">
+                <H1>Analisis de sistemas</H1>
+        </section>
+        <section>
+            <article class="card">
+                <h2>Software de virtualización</h2>
+                <p>Es una tecnologia que permite ejecutar varios sistemas operativos simultanos en una misma maquina, en
+                    un entorno virtualizado cada SO tiene la ilusión de recidir en una maquina propia disponible
+                    enteramente para ella, este software es el soporte de las maquinas virtuales.
+                <br>
+                Con la plataforma de virtualizacion no se puede ver los procesos que estan corriendo.</p>
+            </article>
+            <article class="card">
+                <h2>Maquinas Virtuales</h2>
+                <p>
+                    Una maquina virtual es un sistema operativo que no estan instalado en un
+                    hardware, sino que esta instala Sobre otro sistema operativo, se le pueden asignar los requisitos de
+                    harware que cada sistema operativo requiera.
+                </p>
+                <ul>
+                    <li>El Anfitrion:</li>
+                    <p> es el dueño de casa, es el que esta instalado en la maquina fisica y es desde ahi donde se instalan el sistema operativo de cada maquina virtual y cada capa de aplicaciones. Debe ser una maquina potente, un servidor con la capacidad de poder dividir sus recursos entre las distintas maquinas virtuales.</p>
+                    <li>El invitado:</li>
+                    <p> Es el sistema operativo que corre en ese entorno virtual.</p>
+                </ul>
+            </article>
+            <article class="card">
+                <h3>Virtualización de sistema operativo</h3>
+                <div class="d-flex flex-row align-items-center justify-content-center text-center">
+                    <div class="d-flex flex-column align-items-center justify-content-center w-50">
+                        <div class="card2"><p>APLICACIONES</p></div>
+                        <div class="card2"><p>SISTEMA OPERATIVO</p></div>
+                        <div class="card2"><p>HARDWARE VIRTUAL</p></div>
+                    </div>
+                    <div class="d-flex flex-column m-2 w-50">
+                        <div class="card2"><p>APLICACIONES</p></div>
+                        <div class="card2"><p>SISTEMA OPERATIVO</p></div>
+                        <div class="card2"><p>HARDWARE VIRTUAL</p></div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column text-center">
+                    <div class="card2"><p>SOFTWARE DE VIRTUALIZACIÓN</p></div>
+                    <div class="card2"><p>SISTEMA OPERATIVO</p></div>
+                    <div class="card2"><p>HARDWARE REAL</p></div>
+                </div>
+                <p></p>
+            </article>
+            <article class="card">
+                <h3>Capacidad de recursos</h3>
+                <p>Tiene que poder asignar los recursos de manera que cada una de mas maquinas virtuales puedan correr
+                    de manera eficiente a las necesidades solicitadas.
+                    <br>
+                    Los sitemas operativos que usan los servidores pueden ser Windows server, Unix (para mover gran
+                    cantidad de archivos es invatible)
+                    <br>
+                    Sobre windows server montas la plataforma de virtualizacion y sobre la plataforma montas las
+                    distintas maquians virtuales.
+                    <br>
+                    La virtualizacion de un SO, hace referencia al uso de un software de ejecutar SO en distintas
+                    instancias, esto garantiza que los sistemas no choquen entre si,
+                </p>
+            </article>
+            <article class="card">
+                <h3>HiperVisor o monitor de maquina virtual</h3>
+                <p>Es un monitor de la maquina virtual que le permite aplica herramientas de control parar administrar los diferentes recursos y realiza operaciones tecnicas, seria un software utilitario.</p>
+            </article>
+            <h1>Caracteristicas! (De examen)</h1>
+            <article class="card">
+                <h3>1) Independencia</h3>
+                <p>Son maquinas que tiene la ilusion de estar corriendo con su maquina física, con lo cual son totalemente independientes entre si, esto tiene ventajas de que si falla  una APP, 
+                    ese fallo va a afectar a esa maquina y nada más.
+                </p>
+            </article>
+            <article class="card">
+                <h3>2) Seguridad</h3>
+                <p>Si una maquina virtual es afectada o infectada por un virus esta puede ser aislada y puesta en cuarentena para
+                    poder proseguir con los pasos de seguridad.</p>
+                </article>
+                <article class="card">
+                    <h3>3) Flexibilidad</h3>
+                    <p>El sistema es flexible la aministración y controlar especificamente el hardware y se adapta con el recurso del hardware con los recursos que necesite cada maquina virtual. trae la ventaja de 
+                        que se puede emular SO más antiguos, con las carateristicas necesarias.
+                    </p>
+                </article> 
+                <article class="card">
+                    <h3>4) Portabilidad</h3>
+                    <p>Quiere decir que la maquina virtual es capaz de moberse de un servidor a otro, se migran los archivos
+                        que encapsula a la maquina virtual.</p>
+            </article>
+            <article class="card">
+                <h3>5) Recuperacion rapida</h3>
+                <p>En una maquina encapsulada se recupera la informacion rapidamente si perder información. Todo eso
+                    responde al archivo de recuperación, en caso eventual desastre, recuper la MV
+                    seria volver a iniciar la maquina virtual.
+                </p>
+            </article>
+            <article class="card">
+                <h3>Objetivo</h3>
+                <p>Aprovechar de forma ma eficiente los recursos disponibles, facilitar el trabajo a los administradores
+                    del sistema y dar un mejor servicio al usuario final, mas precisa y mas rápida.</p>
+            </article>
+            <article class="card">
+                <h3></h3>
+                <p></p>
+            </article>    
+            </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
+</body>
+
+</html>

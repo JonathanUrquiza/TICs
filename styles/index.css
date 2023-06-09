@@ -90,12 +90,21 @@ body {
   box-shadow: 10px var(--text-neonP);
   margin-bottom: 5px;
   margin-top: 5px;
+  padding: 1.5%;
   display: flex;
   flex-direction: column;
   align-items: stretch;
 }
 
-
+.card2 {
+  width: 100%;
+  border: 3px var(--main-red) solid;
+  box-shadow: 10px var(--text-neonP);
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 1.5%;
+  
+}
 
 body>.container-time {
   width: auto;
