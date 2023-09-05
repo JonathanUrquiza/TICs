@@ -20,25 +20,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="styles/index.css" rel="stylesheet">
-    <title>TIC´s</title>
+    <link href="../../styles/index.css" rel="stylesheet">
+    <title>Arq. de Computadoras</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
             <div class="container-fluid">
-                <a class="navbar-brand logo" href="index.html">
-                    <h1 class="logo-name ps-2 pe-2">A. sistemas</h1>
-
+                <a class="navbar-brand logo" href="../../index.html">
+                    <h1 class="logo-name ps-2 pe-2">A. de sistemas</h1>
                 </a>
-                <div id="dia" class="dia"></div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                
-
                 <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
                     aria-labelledby="offcanvasNavbar2Label">
                     <div class="offcanvas-header">
@@ -48,46 +44,36 @@
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="pages/lunes.html">Ingles y Lógica computacional</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/martes.html">Diagramación lógica</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/miercoles.html">TIC´s</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/jueves.html">Arq. De las computadoras</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/viernes.html">Contabilidad básica y de costos</a>
-                            </li>
-                        </ul>
-                        </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="contaier">
+    <main class="container">
         <section>
-            <div class="datos">
-                <h1 id="presentacion">Materias</h1>
-            </div>
-            <div class="calendario" id="calendario">
-                <div id="insertar" class="insertar"></div>
-            </div>
-            <div id="segundoCalendario">
-
-            </div>
+            <article class="d-flex flex-column align-items-center justify-content-evenly p-4 mt-3 mb-3 neon">
+                <h2>Motherboard</h2>
+                <p>Es una placa del tipo PCB, con un gran cantidad de microcomponentes y chips soldados de determinados
+                    grupos que conforman las distintas partes esenciales para el funcionamientos de las PC parte
+                    fundamental para montoar cualquier computadora personal de escritorio o portatíl.
+                    <br>
+                    Tienen instalados una serie de circuitos integrados, entre a los que se encuentra el circuito
+                    integrado auxiliar (CHIPSET), que sirve como centro de conexión entre el microporcesador (CPU), la
+                    memoria de acceso aleatorio (RAM), las ranuras de expansión y los dispositivos de almacenamiento.
+                </p>
+            </article>
+            <article>
+                <h2>Formato de placa base</h2>
+                <p>KIM-1: En 1976 MOS Tecnology presenta la computadora en una sola tarjeta KIM-1. Cuenta con un microprocesador 6501/02</p>
+                <ul>
+                    <li></li>
+                </ul>
+            </article>    
         </section>
     </main>
     <footer>
-
     </footer>
-    <script src="Programación/indexSistema.js"></script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>
     <script

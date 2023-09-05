@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="desarrollo web">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Raleway:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -50,11 +54,80 @@
         <section>
             <article class="d-flex flex-column align-items-center justify-content-evenly p-4 mt-3 mb-3 neon">
                 <H1>Virtual Private Network</H1>
+                <p>Una red privada virtual, RPV o VPN de las siglas en inglés, de Virtual Private Network, es una
+                    técnologia de red que permite una extensión segura de la red local (LAN) sobre una red pública o no
+                    controlada como Internet. Permite que la computadora en la red privada con toda la funcionalidad,
+                    seguridad y políticas de gestión de una red privada. Esto se realiza estableciendo una conexión
+                    virtual punto a punto mediante el uso de conexión dedicada, cifrado a la combinación de ambos
+                    métodos.</p>
+                <h2>Tipos de VPN:</h2>
+                <ul>
+                    <li>VPN de acceso remoto:</li>
+                    <p>Es quizás el modelo más usado actualemente, y consiste en usuario o prooveedores que se conectan
+                        con la empresa desde sitio remotos (oficinas comerciales, domicilios, hoteles, aviones
+                        preparados, etcétera) utilizando Internet como vínculo de acceso. <br> Una vez autenticados
+                        tienen un nivel de acceso muy similar al que tienen en la red local de la empresa.</p>
+                    <li>VPN punto a punto:</li>
+                    <p>Este esquema se utiliza para conectar oficinas remotas con sede central de la organización.
+                        <br>El servidor VPN, que posee un vínculo permantente a internet.
+                    </p>
+                    <li>Tunneling:</li>
+                    <p>La técnica de tunneling consiste en encapsular un protoloco de red sobre otro (protocolo de red
+                        encapsulador) creando un túnel dentro de una red de computadoras.</p>
+                    <li>VPN over LAN:</li>
+                    <p>Este esquema es el menos difundido, pero uno de los más poderosos para utilizar dentro de la
+                        empresa. Es una variante del tipo de "acceso remoto" pero, en vez de utilizar Internet como
+                        medio de conexion, emplea la misma red de área loca (LAN) de la empresa.</p>
+                </ul>
         </section>
         <section>
             <article class="card">
-                <h2></h2>
-                <p></p>
+                <h2>Tipos de conexión:</h2>
+                <ul>
+                    <li>Conexión de acceso remoto:</li>
+                    <p>es realizada por un cliente o un usuario de una computadora que se conecta a una red privada, los
+                        paquetes enviados a través de la conexión VPN son originados al cliente de acceso remoto, y éste
+                        se autentifica al servidor de acceso remoto, y el servidor se autentifica ante el cliente.</p>
+                    <li>Conexión VPN router a router:</li>
+                    <p>Una conexión VPN router a router es realizada por un router, y esta a su vez se conecta a una red
+                        privada. En este tipo de conexión, los paquetes enviados desde cualquier router no se originan
+                        en lo routers. El router que realiza la llamada se autentifica ante el router que responde y
+                        este a su vez se autentifica ante el router que realiza la llamada sierve para la internet.</p>
+                    <li>Conexión firewall a firewall:</li>
+                    <p>Una conexión firewall a firewall ess realizada por uno de ellos, y éste a su vez re conecta a
+                        redes privada. En este tipo de conexiónm los paquetes son enviados desde cualquier usuario en
+                        internet. El firewall que realia la llamada se autentifica ante el que responde y éste a su vez
+                        se autentica ante el llamante.</p>
+                </ul>
+                <h2>Ventajas</h2>
+                <ul>
+                    <li>Ahorro:</li>
+                    <p>Nos permite conectar redes físicas separadassin encesidad de usaruna red dedicada, si no que a
+                        travez de internet.</p>
+                    <li>Transparencia</li>
+                    <p>Interconecta distintas sedes es Transparente para el usuario final, ya que la configuracion se
+                        puede hacer a nivel de pasarsela.</p>
+                    <li>Seguridad</li>
+                    <p>Se puede asegurar múltiples servicios a través de un único mecanismo.</p>
+                    <li>Movilidad</li>
+                    <p>Nos permite asegurar la conexón entre usuarios móviles y nuestra red fija.</p>
+                    <li>Simplicidad:</li>
+                    <p>Este tipo de soluciones permite simplificar al administrador de la conexiómn de servidores y
+                        aplicaciones entre diferentes dominios.</p>
+                </ul>
+                <h2>Desventajas</h2>
+                <ul>
+                    <li>Interoperabilidad:</li>
+                    <p>Dado a las distintas soluciones disponibles para implementar una VPN, podemos encontrar
+                        incompatibilidades entre las usadas en los distintos nodos de la VPN.</p>
+                    <li>Velocidad:</li>
+                    <p>La calidad de la conexión sufre. El acceso a las terminales y a las carpetas compartidas la
+                        ejecución de aplicaciones, y la copia de los archivos son mucho más lento de lo que sería en una
+                        línea dedicada.</p>
+                    <li>rendimiento</li>
+                    <p>Tene muchas conexiónes VPN al mismo tiempo puede realentizar consideradamente la red de la
+                        empresa. Afectando en gran medida el rendimiento y la velocidad de la red.</p>
+                </ul>
             </article>
             <article class="card">
                 <h2></h2>
@@ -101,33 +174,36 @@
             <article class="card">
                 <h3></h3>
                 <p></p>
-                </article>
+            </article>
         </section>
-        
+
         <article class="card">
             <h3></h3>
             <p></p>
         </article>
-    </section>
-    <article class="card">
-        <h3></h3>
-        <p></p>
+        </section>
+        <article class="card">
+            <h3></h3>
+            <p></p>
         </article>
-    </section>
-    <article class="card">
-        <h3></h3>
-        <p></p>
-    </article>
-</section>
-<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a href="maquinavirtual.html">Atras</a></button>
-    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a href=""></a></button>
-</div>
-</main>
-<footer>
-</footer>
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
+        </section>
+        <article class="card">
+            <h3></h3>
+            <p></p>
+        </article>
+        </section>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a
+                    href="maquinavirtual.html">Atras</a></button>
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"><a href=""></a></button>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js">luxon</script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js">navbar, main, footer</script>
 </body>
+
 </html>
