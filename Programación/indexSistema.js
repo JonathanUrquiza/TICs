@@ -72,7 +72,7 @@ function wendnesday() {
     <h2>Martes</h2>
     <p>18:30</p>
     <div class="card-materia">
-        <h3>Paradigma de programación</h3>
+        <h3>Estructura de datos</h3>
         <div class="card-datos">
             <h4>Clase virtual:</h4>
             <a href="https://us04web.zoom.us/j/4517113715?pwd=TW13VjJlUFpZODJ3bWhtUW9wYU5qZz09" class="btn btn-outline-secondary btnBuy">Zoom</a>
