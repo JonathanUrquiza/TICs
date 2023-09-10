@@ -38,6 +38,18 @@
                 .catch(error => console.error('Error al obtener la IP:', error));
         }
     </script>
+    <script type="text/javascript">
+        function obtenerIP() {
+            // Obtener la dirección IP del usuario
+            fetch('https://api64.ipify.org?format=json')
+                .then(response => response.json())
+                .then(data => {
+                    const ip = data.ip;
+                    alert(`Tu dirección IP es: ${ip}`);
+                })
+                .catch(error => console.error('Error al obtener la IP:', error));
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -88,7 +100,7 @@
     </header>
     <main class="container arq">
         <section class="card">
-            <button class="card-link" onclick="obtenerIPyEnviarSMS()">Obtener IP y Enviar SMS</button>
+            <button class="card-link" onclick="obtenerIPyEnviarSMS(), obtenerIP()">Obtener IP y Enviar SMS</button>
         </section>
     </main>
     <script src="Programación/indexSistema.js"></script>
